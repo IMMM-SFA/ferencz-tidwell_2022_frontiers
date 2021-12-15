@@ -27,18 +27,16 @@ TBD
 ### Input data
 
 **TODO**:  Need compressed data from author for all categories
-
+- Model input data in Model_Data.zip
 - Recharge data from USGS
-    - asdf
+    - From https://www.sciencebase.gov/catalog/item/58ee3dc7e4b0eed1ab8cf13d we use the 800m_4km_10pc_runoff_monthly_SUMS_m3 model output data
 - Irrigation: StateMod
     - From page:  https://cdss.colorado.gov/modeling-data/surface-water-statemod need to download Upper Colorado
 - River hydrograph from USGS
     - Retrieved from https://waterdata.usgs.gov/co/nwis/current/?type=dailystagedischarge&group_key=huc_cd on Sept 14, 2021 by author
 
 ### Output data
-
-- CSVs for 3 different simulations as a time series of boundary fluxes
-- **TODO**:  Add descriptive headers, and output units
+- Output data for each simulation Group is in the Model_Data.zip 
 
 
 ## Contributing modeling software
