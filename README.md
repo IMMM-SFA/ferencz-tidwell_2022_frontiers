@@ -27,7 +27,7 @@ TBD
 ### Input data
 
 **TODO**:  Need compressed data from author for all categories
-- Model input data in Model_Data.zip
+- Model input data (MODFLOW files and FloPy parameters) for each simulation Group are in Model_Files.zip
 - Recharge data from USGS
     - From https://www.sciencebase.gov/catalog/item/58ee3dc7e4b0eed1ab8cf13d we use the 800m_4km_10pc_runoff_monthly_SUMS_m3 model output data
 - Irrigation: StateMod
@@ -36,7 +36,7 @@ TBD
     - Retrieved from https://waterdata.usgs.gov/co/nwis/current/?type=dailystagedischarge&group_key=huc_cd on Sept 14, 2021 by author
 
 ### Output data
-- Output data for each simulation Group is in the Model_Data.zip 
+- Output data for each simulation Group is in the Model_Files.zip 
 
 
 ## Contributing modeling software
