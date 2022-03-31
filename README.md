@@ -19,14 +19,12 @@ TBD
 ## Code reference
 
  - `Analytical_return_flow_generator.py` in the `workflows` directory of this repository
- - **TODO**:  modify above script to be generalized
- - **TODO**:  need scripts for transforming recharge, irrigation, and hydrographs  
+ - **TODO**:  modify above script to be generalized  
 
 ## Data reference
 
 ### Input data
 
-**TODO**:  Need compressed data from author for all categories
 - Model input data (MODFLOW files and FloPy parameters) for each simulation Group are in Model_Files.zip
 - Recharge data from USGS
     - From https://www.sciencebase.gov/catalog/item/58ee3dc7e4b0eed1ab8cf13d we use the 800m_4km_10pc_runoff_monthly_SUMS_m3 model output data
@@ -38,7 +36,6 @@ TBD
 ### Output data
 - Output data for each simulation Group is in the Model_Files.zip 
 
-
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
 |-------|---------|-----------------|-----|
@@ -47,7 +44,6 @@ TBD
 | Flopy  | 3.3.4 | https://github.com/modflowpy/flopy | https://github.com/modflowpy/flopy/tree/3.3.4 |
 
 ## Reproduce my experiment
-Fill in detailed info here or link to other documentation that is a thorough walkthrough of how to use what is in this repository to reproduce your experiment.
 
 1. Download inputs noted in [Input data](#input-data)
 2. Run script [**TODO**] to create boundary conditions recharge, irrigation, and hydrograph datasets
@@ -56,8 +52,6 @@ Fill in detailed info here or link to other documentation that is a thorough wal
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
-
-**TODO**:  get code to make figures
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
