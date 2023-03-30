@@ -19,7 +19,6 @@ Ferencz, S.B, Tidwell, V.C (2022). Physical controls on irrigation subsurface re
 ## Code reference
 
  - `Analytical_return_flow_generator.py` in the `workflows` directory of this repository
- - **TODO**:  modify above script to be generalized  
 
 ## Data reference
 
@@ -45,14 +44,10 @@ Ferencz, S.B, Tidwell, V.C (2022). Physical controls on irrigation subsurface re
 
 ## Reproduce my experiment
 
-1. Download inputs noted in [Input data](#input-data)
-2. Run script [**TODO**] to create boundary conditions recharge, irrigation, and hydrograph datasets
-3. Run MODFLOW and Flopy **TODO**
-4. Download and unzip the output data from my experiment [Output data](#output-data)
+1. Download inputs noted in Boundary_conditions.zip
+2. Run Flopy scripts 'Group_X_flopy_modeling.py' for Scenario Groups 1, 2, and 3. 
+3. Use plotting scripts to plot outputs. 
 
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `generate_figures.py` | Script to generate my figures | `python3 generate_figures.py -i /path/to/inputs -o /path/to/outuptdir` |
+Use the .py scripts 'Group_X_plotting.py' to generate figures for Scenario Groups 1, 2, and 3. These
+scripts use model outputs provided in Model_Files.zip.
